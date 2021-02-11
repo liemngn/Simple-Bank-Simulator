@@ -9,7 +9,11 @@
 
 ## Classes implemented:
 
-### 1. Account
+### 1. Driver
+- `Driver` is the class that will run the entire program.
+- Takes all user input and determines which methods to run for the management system.
+
+### 2. Account
 - `Account` is a class used to hold the characteristics of each account being processed within the bank management system.
 
 - Each account holds a name, social security number, and amount balance.
@@ -27,7 +31,7 @@
 `public boolean withdrawMoney(double amount)`
 - Like `depositMoney`, if `amount` is a valid number to withdraw (positive ints), reduce the balance with `amount` and return true; otherwise, do not change account balance and return false.
 
-### 2. AccountList
+### 3. AccountList
 - `AccountList` is the class that simulates bank management processes.
 
 - I use an `ArrayList` named `accounts` to hold all instances of `Account` objects
