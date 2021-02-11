@@ -10,4 +10,8 @@
 ## Classes implemented:
 
 ### 1. Account
-- `Account` is a class used to hold the characteristics of each account being processed within the bank management system. 
+- `Account` is a class used to hold the characteristics of each account being processed within the bank management system.
+
+- Each account holds a name, social security number, and amount balance.
+
+- Methods:
