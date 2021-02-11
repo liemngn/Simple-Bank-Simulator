@@ -26,3 +26,24 @@
 
 `public boolean withdrawMoney(double amount)`
 - Like `depositMoney`, if `amount` is a valid number to withdraw (positive ints), reduce the balance with `amount` and return true; otherwise, do not change account balance and return false.
+
+### 2. AccountList
+- `AccountList` is the class that simulates bank management processes.
+
+- I use an `ArrayList` named `accounts` to hold all instances of `Account` objects
+
+#### Methods:
+`public boolean register(String name, String ssn)`
+- Adds a new `Account` with valid name and social security number into `accounts` and returns true; otherwise, don't add anything and return false.
+`public boolean removeAcc(String name, String ssn)`
+- Removes the `Account` object that has `name` and `ssn` and returns true; otherwise, don't alter the list and return false.
+`public void deposit(String name, String ssn, double amount)`
+- Adds `amount` to the current balance of the `Account` object with `name` and `ssn`.
+`public void withdraw(String name, String ssn, double amount)`
+- Removes `amount` from the current balance of the `Account` object with `name` and `ssn`.
+`public void display(String name, String ssn)`
+- Displays the contents of the `Account` object with `name` and `ssn`.
+`public void displayAll()`
+- Displays the contents of all `Account` objects.
+`public int total()`
+- Returns total number of `Account` objects added in `accounts` which is then printed through `Driver` class.
