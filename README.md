@@ -10,4 +10,4 @@
 ## Classes implemented:
 
 ### 1. Account
-- 
+- `Account` is a class used to hold the characteristics of each account being processed within the bank management system. 
