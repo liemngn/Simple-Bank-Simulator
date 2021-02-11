@@ -15,11 +15,11 @@
 - Each account holds a name, social security number, and amount balance.
 
 #### Methods:
- - `public String getName()`
-  Returns the name of the account.
- - `public String getSSN()`
-  Returns the social security number of the account.
- - `public boolean depositMoney(double amount)`
-  If `amount` is a valid number to deposit (positive ints), add `amount` to the balance and return true; otherwise, do not change account balance and return false.
- - `public boolean withdrawMoney(double amount)`
-  Like `depositMoney`, if `amount` is a valid number to withdraw (positive ints), reduce the balance with `amount` and return true; otherwise, do not change account balance and return false.
+`public String getName()`
+- Returns the name of the account.
+`public String getSSN()`
+- Returns the social security number of the account.
+`public boolean depositMoney(double amount)`
+- If `amount` is a valid number to deposit (positive ints), add `amount` to the balance and return true; otherwise, do not change account balance and return false.
+`public boolean withdrawMoney(double amount)`
+- Like `depositMoney`, if `amount` is a valid number to withdraw (positive ints), reduce the balance with `amount` and return true; otherwise, do not change account balance and return false.
