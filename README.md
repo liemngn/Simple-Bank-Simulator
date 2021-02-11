@@ -1,7 +1,6 @@
 # Simple-Bank-Simulator
 
 ## Project Details:
-
 - A simple bank management simulator that **registers and removes accounts** and **processes account information** through user input from the **console**. 
 
 - The user is prompted to enter a name and valid social security number and can add/remove an account under the given information, deposit/withdraw money in/from the account, or display the current account details.
@@ -11,3 +10,4 @@
 ## Classes implemented:
 
 ### 1. Account
+- 
